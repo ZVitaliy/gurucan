@@ -13,9 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin Sidebar Elements/wlcm_menu_link'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/wlcm_menu_link'))
 
-WebUI.click(findTestObject('Welcome Page/wlcm_setup_scool'))
+WebUI.click(findTestObject('Admin/Welcome Page/wlcm_setup_scool'))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Settings Scool/Main Settings/save_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Settings Scool/Main Settings/save_btn'))
 

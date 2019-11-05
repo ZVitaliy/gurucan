@@ -13,23 +13,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin Sidebar Elements/wlcm_menu_link'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/wlcm_menu_link'))
 
-WebUI.switchToFrame(findTestObject('First Login hints/intercom_tour_frame'), 0)
+WebUI.switchToFrame(findTestObject('Admin/First Login hints/intercom_tour_frame'), 0)
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
-WebUI.switchToFrame(findTestObject('First Login hints/intercom_tour_frame'), 0)
+WebUI.switchToFrame(findTestObject('Admin/First Login hints/intercom_tour_frame'), 0)
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
-WebUI.switchToFrame(findTestObject('First Login hints/intercom_tour_frame'), 0)
+WebUI.switchToFrame(findTestObject('Admin/First Login hints/intercom_tour_frame'), 0)
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
-WebUI.switchToFrame(findTestObject('First Login hints/intercom_tour_frame'), 0)
+WebUI.switchToFrame(findTestObject('Admin/First Login hints/intercom_tour_frame'), 0)
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
-WebUI.click(findTestObject('First Login hints/hint_close'))
+WebUI.click(findTestObject('Admin/Welcome Page/wlcm_first_course'))
 

@@ -18,23 +18,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://app.staging.gurucan.ru/admin/')
 
-WebUI.click(findTestObject('Admin Login Page/login_signup_link'))
+WebUI.click(findTestObject('Admin/Admin Login Page/login_signup_link'))
 
-WebUI.setText(findTestObject('Admin Signup Page 1/signup_user_name_field'), 'Юзер')
+WebUI.setText(findTestObject('Admin/Admin Signup Page 1/signup_user_name_field'), 'Юзер')
 
-WebUI.setText(findTestObject('Admin Signup Page 1/signup_email_field'), 'unkle@ukr.net')
+WebUI.setText(findTestObject('Admin/Admin Signup Page 1/signup_email_field'), 'unkle@ukr.net')
 
-WebUI.setEncryptedText(findTestObject('Admin Signup Page 1/signup_pass_field'), '8chwvGYzQjDjBqJR/GXC+g==')
+WebUI.setEncryptedText(findTestObject('Admin/Admin Signup Page 1/signup_pass_field'), '8chwvGYzQjDjBqJR/GXC+g==')
 
-WebUI.click(findTestObject('Admin Signup Page 1/signup_agreement_checkbox'))
+WebUI.click(findTestObject('Admin/Admin Signup Page 1/signup_agreement_checkbox'))
 
-WebUI.click(findTestObject('Admin Signup Page 1/signup_creata_scool_btn'))
+WebUI.click(findTestObject('Admin/Admin Signup Page 1/signup_creata_scool_btn'))
 
 WebUI.waitForPageLoad(1)
 
-WebUI.setText(findTestObject('Admin Signup Page 2/signup_scool_name_field'), 'Scool2')
+WebUI.setText(findTestObject('Admin/Admin Signup Page 2/signup_scool_name_field'), 'Scool2')
 
-WebUI.click(findTestObject('Admin Signup Page 2/signup_sign_button'))
+WebUI.click(findTestObject('Admin/Admin Signup Page 2/signup_sign_button'))
 
 WebUI.waitForPageLoad(1)
 

@@ -24,14 +24,14 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://app.staging.gurucan.ru/admin/login')
 
 'Логин юзера'
-WebUI.setText(findTestObject('Admin Login Page/login_email_field'), 'najon72412@mail8app.com')
+WebUI.setText(findTestObject('Admin/Admin Login Page/login_email_field'), 'tigobi4500@dmailpro.net')
 
 'Пароль'
-WebUI.setEncryptedText(findTestObject('Admin Login Page/login_pass_field'), '8chwvGYzQjDjBqJR/GXC+g==')
+WebUI.setEncryptedText(findTestObject('Admin/Admin Login Page/login_pass_field'), '8chwvGYzQjDjBqJR/GXC+g==')
 
 'Домен'
-WebUI.setText(findTestObject('Admin Login Page/login_domain_field'), 'najon')
+WebUI.setText(findTestObject('Admin/Admin Login Page/login_domain_field'), 'tigobi')
 
 'Кнопка вход'
-WebUI.click(findTestObject('Admin Login Page/login_button'))
+WebUI.click(findTestObject('Admin/Admin Login Page/login_button'))
 

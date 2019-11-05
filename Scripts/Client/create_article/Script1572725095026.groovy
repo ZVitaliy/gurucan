@@ -13,17 +13,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Articles/submenu_articles'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu'))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Articles/article_add_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles'))
 
-WebUI.setText(findTestObject('Admin Sidebar Elements/Content Management/Articles/article_name_field'), 'New article')
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_add_btn'))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Articles/article_add_block_btn'))
+WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_name_field'), 'New article')
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Articles/article_block_add_text_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_add_block_btn'))
 
-WebUI.setText(findTestObject('Admin Sidebar Elements/Content Management/Articles/article_block_text_area'), 'Some text')
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_block_add_youtube_btn'))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Articles/article_save_btn'))
+WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_block_youtube_link'), 'https://www.youtube.com/watch?v=xf6lhjW21gU')
+
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_block_youtube_save_btn'))
+
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_save_btn'))
 

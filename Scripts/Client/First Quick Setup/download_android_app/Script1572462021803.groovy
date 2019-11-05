@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin Sidebar Elements/wlcm_menu_link'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/wlcm_menu_link'))
 
-WebUI.click(findTestObject('Welcome Page/get_android_app'))
+WebUI.click(findTestObject('Admin/Welcome Page/get_android_app'))
 

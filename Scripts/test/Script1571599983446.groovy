@@ -17,19 +17,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://app.staging.gurucan.ru/admin/login')
 
-WebUI.setText(findTestObject('Admin Login Page/login_email_field'), 'rumu@app-expert.com')
+WebUI.setText(findTestObject('Admin/Admin Login Page/login_email_field'), 'rumu@app-expert.com')
 
-WebUI.setEncryptedText(findTestObject('Admin Login Page/login_pass_field'), '8chwvGYzQjDjBqJR/GXC+g==')
+WebUI.setEncryptedText(findTestObject('Admin/Admin Login Page/login_pass_field'), '8chwvGYzQjDjBqJR/GXC+g==')
 
-WebUI.setText(findTestObject('Admin Login Page/login_domain_field'), 'rumu')
+WebUI.setText(findTestObject('Admin/Admin Login Page/login_domain_field'), 'rumu')
 
-WebUI.click(findTestObject('Admin Login Page/login_button'))
+WebUI.click(findTestObject('Admin/Admin Login Page/login_button'))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/wlcm_menu_link'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/wlcm_menu_link'))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Stats Analytics menu/expand_collaps_menu'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Stats Analytics menu/expand_collaps_menu'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Stats Analytics menu/expand_collaps_menu'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Stats Analytics menu/expand_collaps_menu'))
 

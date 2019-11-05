@@ -13,38 +13,38 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Welcome Page/wlcm_first_course'))
+WebUI.click(findTestObject('Admin/Welcome Page/wlcm_first_course'))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Courses/create_course_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/create_course_btn'))
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
-WebUI.uploadFile(findTestObject('Admin Sidebar Elements/Content Management/Courses/course_image_uploader'), '/Users/macbookpro/Documents/gurucan/katalon/Gurucan Web/Files/announce_big_7.png')
+WebUI.uploadFile(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_image_uploader'), '/Users/macbookpro/Documents/gurucan/katalon/Gurucan Web/Files/announce_big_7.png')
 
-WebUI.setText(findTestObject('Admin Sidebar Elements/Content Management/Courses/course_name_field'), 'New course')
+WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_name_field'), 'New course')
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
-WebUI.sendKeys(findTestObject('Admin Sidebar Elements/Content Management/Courses/course_description'), 'Some text')
+WebUI.sendKeys(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_description'), 'Some text')
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
-WebUI.sendKeys(findTestObject('Admin Sidebar Elements/Content Management/Courses/course_description_detailed'), 'Detailed description')
+WebUI.sendKeys(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_description_detailed'), 'Detailed description')
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
-WebUI.click(findTestObject('First Login hints/hint_next_btn'))
+WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
 'Определить селектор!!! Создать новое задание'
 WebUI.click(findTestObject(null))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Courses/course_save_btn_bottom'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_save_btn_bottom'))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Courses/course_done_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_done_btn'))
 

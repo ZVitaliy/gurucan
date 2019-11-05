@@ -14,11 +14,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Welcome Page/wlcm_first_course'))
+WebUI.click(findTestObject('Admin/Welcome Page/wlcm_first_course'))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Courses/create_course_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/create_course_btn'))
 
-WebUI.setText(findTestObject('Admin Sidebar Elements/Content Management/Courses/course_name_field'), 'Test course')
+WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_name_field'), 'Test course')
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Courses/course_save_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_save_btn'))
 

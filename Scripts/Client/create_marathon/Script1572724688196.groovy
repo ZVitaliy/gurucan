@@ -13,13 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/expand_collaps_menu'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu'))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Marathons/submenu_marathons'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/submenu_marathons'))
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Marathons/marathon_create_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_create_btn'))
 
-WebUI.setText(findTestObject('Admin Sidebar Elements/Content Management/Marathons/marathon_name_field'), 'New Marathon')
+WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_name_field'), 'New Marathon')
 
-WebUI.click(findTestObject('Admin Sidebar Elements/Content Management/Marathons/marathon_save_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_save_btn'))
 
