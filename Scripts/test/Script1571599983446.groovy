@@ -33,5 +33,3 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Admin Sidebar Elements/Stats Analytics menu/expand_collaps_menu'))
 
-WebUI.delay(2)
-
