@@ -24,13 +24,13 @@ WebUI.maximizeWindow()
 WebUI.navigateToUrl('https://app.staging.gurucan.ru/admin/login')
 
 'Логин юзера'
-WebUI.setText(findTestObject('Admin/Admin Login Page/login_email_field'), 'tigobi4500@dmailpro.net')
+WebUI.setText(findTestObject('Admin/Admin Login Page/login_email_field'), 'fibe@simplemail.top')
 
 'Пароль'
 WebUI.setEncryptedText(findTestObject('Admin/Admin Login Page/login_pass_field'), '8chwvGYzQjDjBqJR/GXC+g==')
 
 'Домен'
-WebUI.setText(findTestObject('Admin/Admin Login Page/login_domain_field'), 'tigobi')
+WebUI.setText(findTestObject('Admin/Admin Login Page/login_domain_field'), 'fibe')
 
 'Кнопка вход'
 WebUI.click(findTestObject('Admin/Admin Login Page/login_button'))

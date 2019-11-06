@@ -6,11 +6,11 @@
    <elementGuidId>33fd28e0-8326-48a4-9d3a-383c1e53abd3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='general-settings__example']//a[@href=&quot;https://play.google.com/store/apps/details?id=com.gurucan.gurucan&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;general-settings__example&quot;]//div[1]//a[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(@class,'button button_theme_blue button_size_medium login__submit')]</value>
+         <value>//button[contains(@class,'button button_theme_orange button_size_large sign__submit')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sign__layout.sign__step_1:nth-child(5) div.sign__content div.sign__container form.sign__form div.sign__form-wrap div.sign__buttons:nth-child(4) > button.button.button_theme_orange.button_size_large.sign__submit</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder=&quot;domain&quot;]</value>
+         <value>//input[contains(@placeholder,'domain')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sign__layout.sign__step_1:nth-child(5) div.sign__content div.sign__container form.sign__form div.sign__form-wrap div.sign__field:nth-child(3) div.input__wrap.sign__input-wrap > input.input.sign__input</value>
       </entry>
       <entry>
          <key>BASIC</key>

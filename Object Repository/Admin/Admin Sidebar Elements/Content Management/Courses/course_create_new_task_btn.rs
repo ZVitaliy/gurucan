@@ -6,11 +6,11 @@
    <elementGuidId>63dc65fa-1e9b-4aee-ab4f-82d99de05137</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(@class,'options__wrap course__create')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;course__create-wrap&quot;]//div[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

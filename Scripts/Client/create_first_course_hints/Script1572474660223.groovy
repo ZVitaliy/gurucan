@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))
 
 'Определить селектор!!! Создать новое задание'
-WebUI.click(findTestObject(null))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_create_new_task_btn'))
 
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_save_btn_bottom'))
 

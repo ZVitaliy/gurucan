@@ -17,9 +17,9 @@
       <testCaseId>Test Cases/Client/login_client</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1ccfabf-57d2-4f00-877b-e115337704df</guid>
+      <guid>bb7cb30a-3987-44ea-8d94-39d0bbd1208a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Client/create_article</testCaseId>
+      <testCaseId>Test Cases/Client/create_marathon</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
