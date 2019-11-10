@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Quick setup" time="48.996" tests="7" failures="2" errors="0">
+   <testsuite name="Quick setup" tests="7" failures="2" errors="0" time="48.996" timestamp="2019-11-07 21:31:42" hostname="macbookpro - mbp-macbook" id="Test Suites/Smoke test/Quick setup">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191107_213140/Smoke test/Quick setup/20191107_213140"/>
+         <property name="logFiles" value="/Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191107_213140/Smoke test/Quick setup/20191107_213140/execution0.log"/>
+         <property name="attachments" value="/Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191107_213140/Smoke test/Quick setup/20191107_213140/1573155133609.png, /Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191107_213140/Smoke test/Quick setup/20191107_213140/1573155151024.png"/>
+         <property name="hostName" value="macbookpro - mbp-macbook"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.6.1"/>
+         <property name="browser" value="Chrome 78.0.3904.87"/>
+         <property name="hostAddress" value="192.168.1.38"/>
+         <property name="sessionId" value="1c8d0519fb4a3c0f79c664377da45044"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Client/login_client" time="11.659" classname="Test Cases/Client/login_client" status="PASSED">
+         <system-out><![CDATA[2019-11-07 21:31:42 - [TEST_CASE][PASSED] - Test Cases/Client/login_client: Test Cases/Client/login_client
+
+2019-11-07 21:31:43 - [TEST_STEP][PASSED] - openBrowser("https://app.staging.gurucan.ru/admin/login"): Browser is opened with url: 'https://app.staging.gurucan.ru/admin/login'
+
+2019-11-07 21:31:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-07 21:31:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-07 21:31:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.staging.gurucan.ru/admin/login'
+
+2019-11-07 21:31:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-11-07 21:31:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-07 21:31:49 - [TEST_STEP][PASSED] - navigateToUrl("https://app.staging.gurucan.ru/admin/login"): Navigate to 'https://app.staging.gurucan.ru/admin/login' successfully
+
+2019-11-07 21:31:51 - [MESSAGE][PASSED] - Navigate to 'https://app.staging.gurucan.ru/admin/login' successfully
+
+2019-11-07 21:31:51 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login Page/login_email_field"), "fibe@simplemail.top"): Text 'fibe@simplemail.top' is set on object 'Object Repository/Admin/Admin Login Page/login_email_field'
+
+2019-11-07 21:31:52 - [MESSAGE][PASSED] - Text 'fibe@simplemail.top' is set on object 'Object Repository/Admin/Admin Login Page/login_email_field'
+
+2019-11-07 21:31:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Admin/Admin Login Page/login_pass_field"), "8chwvGYzQjDjBqJR/GXC+g=="): Text ****** has been set on object 'Object Repository/Admin/Admin Login Page/login_pass_field'
+
+2019-11-07 21:31:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Admin Login Page/login_pass_field'
+
+2019-11-07 21:31:53 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login Page/login_domain_field"), "fibe"): Text 'fibe' is set on object 'Object Repository/Admin/Admin Login Page/login_domain_field'
+
+2019-11-07 21:31:53 - [MESSAGE][PASSED] - Text 'fibe' is set on object 'Object Repository/Admin/Admin Login Page/login_domain_field'
+
+2019-11-07 21:31:53 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login Page/login_button")): Object: 'Object Repository/Admin/Admin Login Page/login_button' is clicked on
+
+2019-11-07 21:31:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login Page/login_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client/First Quick Setup/course_fast_create" time="7.871" classname="Test Cases/Client/First Quick Setup/course_fast_create" status="PASSED">
+         <system-out><![CDATA[2019-11-07 21:31:54 - [TEST_CASE][PASSED] - Test Cases/Client/First Quick Setup/course_fast_create: Test Cases/Client/First Quick Setup/course_fast_create
+
+2019-11-07 21:31:54 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/wlcm_menu_link")): Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-07 21:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-07 21:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Welcome Page/wlcm_first_course")): Object: 'Object Repository/Admin/Welcome Page/wlcm_first_course' is clicked on
+
+2019-11-07 21:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Welcome Page/wlcm_first_course' is clicked on
+
+2019-11-07 21:31:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/create_course_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/create_course_btn' is clicked on
+
+2019-11-07 21:32:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/create_course_btn' is clicked on
+
+2019-11-07 21:32:00 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/course_name_field"), "Test course"): Text 'Test course' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_name_field'
+
+2019-11-07 21:32:01 - [MESSAGE][PASSED] - Text 'Test course' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_name_field'
+
+2019-11-07 21:32:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/course_save_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_save_btn' is clicked on
+
+2019-11-07 21:32:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_save_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client/First Quick Setup/scool_fast_setup" time="3.977" classname="Test Cases/Client/First Quick Setup/scool_fast_setup" status="PASSED">
+         <system-out><![CDATA[2019-11-07 21:32:02 - [TEST_CASE][PASSED] - Test Cases/Client/First Quick Setup/scool_fast_setup: Test Cases/Client/First Quick Setup/scool_fast_setup
+
+2019-11-07 21:32:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/wlcm_menu_link")): Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-07 21:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-07 21:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Welcome Page/wlcm_setup_scool")): Object: 'Object Repository/Admin/Welcome Page/wlcm_setup_scool' is clicked on
+
+2019-11-07 21:32:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Welcome Page/wlcm_setup_scool' is clicked on
+
+2019-11-07 21:32:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Settings Scool/Main Settings/save_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Settings Scool/Main Settings/save_btn' is clicked on
+
+2019-11-07 21:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Settings Scool/Main Settings/save_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client/First Quick Setup/lending_fast_setup" time="2.76" classname="Test Cases/Client/First Quick Setup/lending_fast_setup" status="PASSED">
+         <system-out><![CDATA[2019-11-07 21:32:06 - [TEST_CASE][PASSED] - Test Cases/Client/First Quick Setup/lending_fast_setup: Test Cases/Client/First Quick Setup/lending_fast_setup
+
+2019-11-07 21:32:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/wlcm_menu_link")): Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-07 21:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-07 21:32:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Welcome Page/wlcm_setup_lending")): Object: 'Object Repository/Admin/Welcome Page/wlcm_setup_lending' is clicked on
+
+2019-11-07 21:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Welcome Page/wlcm_setup_lending' is clicked on
+
+2019-11-07 21:32:08 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Settings Scool/Lending Settings/save_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Settings Scool/Lending Settings/save_btn' is clicked on
+
+2019-11-07 21:32:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Settings Scool/Lending Settings/save_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client/First Quick Setup/requisites_fast_setup" time="4.883" classname="Test Cases/Client/First Quick Setup/requisites_fast_setup" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Client/First Quick Setup/requisites_fast_setup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at requisites_fast_setup.run(requisites_fast_setup:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn' located by 'By.xpath: //div[@class=&quot;layout__container &quot;]//ul[1]//li[1]//button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-11-07 21:32:09 - [TEST_CASE][FAILED] - Test Cases/Client/First Quick Setup/requisites_fast_setup: Test Cases/Client/First Quick Setup/requisites_fast_setup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at requisites_fast_setup.run(requisites_fast_setup:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn' located by 'By.xpath: //div[@class="layout__container "]//ul[1]//li[1]//button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-11-07 21:32:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/wlcm_menu_link")): Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-07 21:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-07 21:32:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Welcome Page/wlcm_setup_payments")): Object: 'Object Repository/Admin/Welcome Page/wlcm_setup_payments' is clicked on
+
+2019-11-07 21:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Welcome Page/wlcm_setup_payments' is clicked on
+
+2019-11-07 21:32:10 - [TEST_STEP][FAILED] - click(findTestObject("Admin/Admin Sidebar Elements/My Account/Requisites/save_btn")): Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at requisites_fast_setup.run(requisites_fast_setup:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn' located by 'By.xpath: //div[@class="layout__container "]//ul[1]//li[1]//button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1572461914712.run(Script1572461914712.groovy:20)
+	... 13 more
+)
+
+2019-11-07 21:32:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class="layout__container "]//ul[1]//li[1]//button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-07 21:32:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at requisites_fast_setup.run(requisites_fast_setup:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn' located by 'By.xpath: //div[@class="layout__container "]//ul[1]//li[1]//button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1572461914712.run(Script1572461914712.groovy:20)
+	... 13 more
+)
+[[ATTACHMENT|/Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191107_213140/Smoke test/Quick setup/20191107_213140/1573155133609.png]]]]></system-out>
+         <system-err><![CDATA[2019-11-07 21:32:09 - [TEST_CASE][FAILED] - Test Cases/Client/First Quick Setup/requisites_fast_setup: Test Cases/Client/First Quick Setup/requisites_fast_setup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at requisites_fast_setup.run(requisites_fast_setup:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn' located by 'By.xpath: //div[@class="layout__container "]//ul[1]//li[1]//button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client/create_marathon" time="13.774" classname="Test Cases/Client/create_marathon" status="PASSED">
+         <system-out><![CDATA[2019-11-07 21:32:14 - [TEST_CASE][PASSED] - Test Cases/Client/create_marathon: Test Cases/Client/create_marathon
+
+2019-11-07 21:32:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu' is clicked on
+
+2019-11-07 21:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu' is clicked on
+
+2019-11-07 21:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/submenu_marathons")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/submenu_marathons' is clicked on
+
+2019-11-07 21:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/submenu_marathons' is clicked on
+
+2019-11-07 21:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_create_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_create_btn' is clicked on
+
+2019-11-07 21:32:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_create_btn' is clicked on
+
+2019-11-07 21:32:16 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_name_field"), "New Marathon"): Text 'New Marathon' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_name_field'
+
+2019-11-07 21:32:18 - [MESSAGE][PASSED] - Text 'New Marathon' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_name_field'
+
+2019-11-07 21:32:18 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_add_task_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_add_task_btn' is hovered
+
+2019-11-07 21:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_add_task_btn' is hovered
+
+2019-11-07 21:32:18 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_add_lesson_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_add_lesson_btn' is clicked on
+
+2019-11-07 21:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_add_lesson_btn' is clicked on
+
+2019-11-07 21:32:19 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_name_field"), "Exercise 1"): Text 'Exercise 1' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_name_field'
+
+2019-11-07 21:32:20 - [MESSAGE][PASSED] - Text 'Exercise 1' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_name_field'
+
+2019-11-07 21:32:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_add_block_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_add_block_btn' is clicked on
+
+2019-11-07 21:32:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_add_block_btn' is clicked on
+
+2019-11-07 21:32:21 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_btn' is clicked on
+
+2019-11-07 21:32:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_btn' is clicked on
+
+2019-11-07 21:32:21 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_link"), "https://www.youtube.com/watch?v=fU2-ZJAtByg"): Text 'https://www.youtube.com/watch?v=fU2-ZJAtByg' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_link'
+
+2019-11-07 21:32:23 - [MESSAGE][PASSED] - Text 'https://www.youtube.com/watch?v=fU2-ZJAtByg' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_link'
+
+2019-11-07 21:32:23 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_youtube_save_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_youtube_save_btn' is clicked on
+
+2019-11-07 21:32:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_youtube_save_btn' is clicked on
+
+2019-11-07 21:32:24 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_save_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_save_btn' is clicked on
+
+2019-11-07 21:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_save_btn' is clicked on
+
+2019-11-07 21:32:25 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_breadcrumbs_link")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_breadcrumbs_link' is clicked on
+
+2019-11-07 21:32:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_breadcrumbs_link' is clicked on
+
+2019-11-07 21:32:26 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_save_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_save_btn' is clicked on
+
+2019-11-07 21:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_save_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client/create_article" time="3.487" classname="Test Cases/Client/create_article" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Client/create_article FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at create_article.run(create_article:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles' located by 'By.xpath: //div[@class=&quot;sidebar__menu&quot;]//div[3]//li[3]//a[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-11-07 21:32:27 - [TEST_CASE][FAILED] - Test Cases/Client/create_article: Test Cases/Client/create_article FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at create_article.run(create_article:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles' located by 'By.xpath: //div[@class="sidebar__menu"]//div[3]//li[3]//a[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-11-07 21:32:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/wlcm_menu_link")): Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-07 21:32:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-07 21:32:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu' is clicked on
+
+2019-11-07 21:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu' is clicked on
+
+2019-11-07 21:32:29 - [TEST_STEP][FAILED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles")): Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at create_article.run(create_article:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles' located by 'By.xpath: //div[@class="sidebar__menu"]//div[3]//li[3]//a[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1572725095026.run(Script1572725095026.groovy:22)
+	... 13 more
+)
+
+2019-11-07 21:32:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@class="sidebar__menu"]//div[3]//li[3]//a[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-07 21:32:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at create_article.run(create_article:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles' located by 'By.xpath: //div[@class="sidebar__menu"]//div[3]//li[3]//a[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1572725095026.run(Script1572725095026.groovy:22)
+	... 13 more
+)
+[[ATTACHMENT|/Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191107_213140/Smoke test/Quick setup/20191107_213140/1573155151024.png]]]]></system-out>
+         <system-err><![CDATA[2019-11-07 21:32:27 - [TEST_CASE][FAILED] - Test Cases/Client/create_article: Test Cases/Client/create_article FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at create_article.run(create_article:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles' located by 'By.xpath: //div[@class="sidebar__menu"]//div[3]//li[3]//a[1]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-07 21:31:42 - [TEST_SUITE][FAILED] - Quick setup: Test Cases/Client/First Quick Setup/requisites_fast_setup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at requisites_fast_setup.run(requisites_fast_setup:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn' located by 'By.xpath: //div[@class="layout__container "]//ul[1]//li[1]//button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-11-07 21:31:42 - [TEST_SUITE][FAILED] - Quick setup: Test Cases/Client/First Quick Setup/requisites_fast_setup FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at requisites_fast_setup.run(requisites_fast_setup:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573155100067.run(TempTestSuite1573155100067.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Admin Sidebar Elements/My Account/Requisites/save_btn' located by 'By.xpath: //div[@class="layout__container "]//ul[1]//li[1]//button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

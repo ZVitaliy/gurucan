@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;options__wrap course__create&quot;]//ul[1]//li[1]</value>
+         <value>//div[@class=&quot;add-block&quot;]//button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

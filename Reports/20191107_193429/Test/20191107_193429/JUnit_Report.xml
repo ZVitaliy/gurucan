@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="30.169" tests="2" failures="0" errors="0">
+   <testsuite name="Test" tests="2" failures="0" errors="0" time="30.169" timestamp="2019-11-07 19:34:32" hostname="macbookpro - mbp-macbook" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191107_193429/Test/20191107_193429"/>
+         <property name="logFiles" value="/Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191107_193429/Test/20191107_193429/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="macbookpro - mbp-macbook"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.6.1"/>
+         <property name="browser" value="Chrome 78.0.3904.87"/>
+         <property name="hostAddress" value="192.168.1.38"/>
+         <property name="sessionId" value="995fee7aaf5a40048313c77185acefb0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Client/login_client" time="12.241" classname="Test Cases/Client/login_client" status="PASSED">
+         <system-out><![CDATA[2019-11-07 19:34:32 - [TEST_CASE][PASSED] - Test Cases/Client/login_client: Test Cases/Client/login_client
+
+2019-11-07 19:34:33 - [TEST_STEP][PASSED] - openBrowser("https://app.staging.gurucan.ru/admin/login"): Browser is opened with url: 'https://app.staging.gurucan.ru/admin/login'
+
+2019-11-07 19:34:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-07 19:34:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-07 19:34:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.staging.gurucan.ru/admin/login'
+
+2019-11-07 19:34:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-11-07 19:34:39 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-07 19:34:39 - [TEST_STEP][PASSED] - navigateToUrl("https://app.staging.gurucan.ru/admin/login"): Navigate to 'https://app.staging.gurucan.ru/admin/login' successfully
+
+2019-11-07 19:34:41 - [MESSAGE][PASSED] - Navigate to 'https://app.staging.gurucan.ru/admin/login' successfully
+
+2019-11-07 19:34:41 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login Page/login_email_field"), "fibe@simplemail.top"): Text 'fibe@simplemail.top' is set on object 'Object Repository/Admin/Admin Login Page/login_email_field'
+
+2019-11-07 19:34:43 - [MESSAGE][PASSED] - Text 'fibe@simplemail.top' is set on object 'Object Repository/Admin/Admin Login Page/login_email_field'
+
+2019-11-07 19:34:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Admin/Admin Login Page/login_pass_field"), "8chwvGYzQjDjBqJR/GXC+g=="): Text ****** has been set on object 'Object Repository/Admin/Admin Login Page/login_pass_field'
+
+2019-11-07 19:34:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Admin Login Page/login_pass_field'
+
+2019-11-07 19:34:44 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login Page/login_domain_field"), "fibe"): Text 'fibe' is set on object 'Object Repository/Admin/Admin Login Page/login_domain_field'
+
+2019-11-07 19:34:44 - [MESSAGE][PASSED] - Text 'fibe' is set on object 'Object Repository/Admin/Admin Login Page/login_domain_field'
+
+2019-11-07 19:34:44 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login Page/login_button")): Object: 'Object Repository/Admin/Admin Login Page/login_button' is clicked on
+
+2019-11-07 19:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login Page/login_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client/create_marathon" time="17.317" classname="Test Cases/Client/create_marathon" status="PASSED">
+         <system-out><![CDATA[2019-11-07 19:34:45 - [TEST_CASE][PASSED] - Test Cases/Client/create_marathon: Test Cases/Client/create_marathon
+
+2019-11-07 19:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu' is clicked on
+
+2019-11-07 19:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu' is clicked on
+
+2019-11-07 19:34:48 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/submenu_marathons")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/submenu_marathons' is clicked on
+
+2019-11-07 19:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/submenu_marathons' is clicked on
+
+2019-11-07 19:34:49 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_create_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_create_btn' is clicked on
+
+2019-11-07 19:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_create_btn' is clicked on
+
+2019-11-07 19:34:51 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_name_field"), "New Marathon"): Text 'New Marathon' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_name_field'
+
+2019-11-07 19:34:52 - [MESSAGE][PASSED] - Text 'New Marathon' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_name_field'
+
+2019-11-07 19:34:52 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_add_task_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_add_task_btn' is hovered
+
+2019-11-07 19:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_add_task_btn' is hovered
+
+2019-11-07 19:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_add_lesson_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_add_lesson_btn' is clicked on
+
+2019-11-07 19:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_add_lesson_btn' is clicked on
+
+2019-11-07 19:34:53 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_name_field"), "Exercise 1"): Text 'Exercise 1' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_name_field'
+
+2019-11-07 19:34:54 - [MESSAGE][PASSED] - Text 'Exercise 1' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_name_field'
+
+2019-11-07 19:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_add_block_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_add_block_btn' is clicked on
+
+2019-11-07 19:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_add_block_btn' is clicked on
+
+2019-11-07 19:34:55 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_btn' is clicked on
+
+2019-11-07 19:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_btn' is clicked on
+
+2019-11-07 19:34:56 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_link"), "https://www.youtube.com/watch?v=fU2-ZJAtByg"): Text 'https://www.youtube.com/watch?v=fU2-ZJAtByg' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_link'
+
+2019-11-07 19:34:58 - [MESSAGE][PASSED] - Text 'https://www.youtube.com/watch?v=fU2-ZJAtByg' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_add_youtube_link'
+
+2019-11-07 19:34:58 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_youtube_save_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_youtube_save_btn' is clicked on
+
+2019-11-07 19:34:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_youtube_save_btn' is clicked on
+
+2019-11-07 19:34:58 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_save_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_save_btn' is clicked on
+
+2019-11-07 19:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_save_btn' is clicked on
+
+2019-11-07 19:34:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_breadcrumbs_link")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_breadcrumbs_link' is clicked on
+
+2019-11-07 19:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_breadcrumbs_link' is clicked on
+
+2019-11-07 19:35:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_save_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_save_btn' is clicked on
+
+2019-11-07 19:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_save_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-07 19:34:32 - [TEST_SUITE][PASSED] - Test: Test Cases/Client/create_marathon]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -6,8 +6,8 @@
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
-   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <pageLoadTimeout>2</pageLoadTimeout>
+   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>4f3e0710-2311-4484-8291-2b9222889f25</testSuiteGuid>
    <testCaseLink>
@@ -39,12 +39,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Client/First Quick Setup/requisites_fast_setup</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cfee203a-7181-489d-a389-6276816d6451</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Client/First Quick Setup/download_android_app</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ca6c0f22-1255-42a9-8ecc-d8a18a18a302</guid>

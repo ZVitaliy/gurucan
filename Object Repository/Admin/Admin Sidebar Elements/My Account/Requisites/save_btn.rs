@@ -6,11 +6,11 @@
    <elementGuidId>b672a659-f2a0-441b-9724-415d39a4edc9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//ul[@class=&quot;op-settings__controls&quot;]//li[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@class=&quot;layout__content &quot;]//ul[1]//li[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

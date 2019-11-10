@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Ma
 
 WebUI.mouseOver(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_add_task_btn'))
 
-WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_lesson_add_block_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_add_lesson_btn'))
 
 WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_name_field'), 
     'Exercise 1')
@@ -40,6 +40,8 @@ WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Ma
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_block_youtube_save_btn'))
 
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/Lesson/marathon_lesson_save_btn'))
+
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_breadcrumbs_link'))
 
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Marathons/marathon_save_btn'))
 
