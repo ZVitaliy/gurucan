@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>create_menu_btn</name>
+   <name>lending_login_btn</name>
    <tag></tag>
-   <elementGuidId>0ca9a532-a47a-4d7e-aa34-c448fc85b7c7</elementGuidId>
+   <elementGuidId>fe19da51-2815-41b8-a448-c042a7e96e1a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;layout__container &quot;]//button</value>
+         <value>//div[@class='header-login__wrapper']//a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

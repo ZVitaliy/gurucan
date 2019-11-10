@@ -17,15 +17,15 @@
       <testCaseId>Test Cases/Client/login_client</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>22a4abeb-9cad-451a-a314-a88bf7325a06</guid>
+      <guid>689c54bc-0932-436b-84ab-c982308b5c78</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Client/create_marathon</testCaseId>
+      <testCaseId>Test Cases/Client/create_recipe</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8937ee6c-2ff1-4abe-b816-92bc7ed9c651</guid>
+      <guid>666c76c6-fdd3-48df-9629-d393d2e34411</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Client/create_article</testCaseId>
+      <testCaseId>Test Cases/Client/create_menu</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

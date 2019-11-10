@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>create_menu_btn</name>
+   <name>login_page_password_field</name>
    <tag></tag>
-   <elementGuidId>0ca9a532-a47a-4d7e-aa34-c448fc85b7c7</elementGuidId>
+   <elementGuidId>08fd62d3-7814-4128-9c7b-14db29413045</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;layout__container &quot;]//button</value>
+         <value>//div[@class=&quot;sc-hwcHae ipMDNB&quot;]//form//div[1]//div[2]//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

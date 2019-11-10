@@ -52,4 +52,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Client/create_article</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>f308d67f-e3bd-4e2f-b041-bf8acb80859f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Client/create_recipe</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>74a31a5d-bf3d-41a0-b00a-66c4063fb4d0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Client/create_menu</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
