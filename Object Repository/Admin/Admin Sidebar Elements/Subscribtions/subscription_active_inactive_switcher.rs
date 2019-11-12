@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>subscription</name>
+   <name>subscription_active_inactive_switcher</name>
    <tag></tag>
-   <elementGuidId>7aba0a99-8bd1-42e5-b0b7-4935ce9d0a1e</elementGuidId>
+   <elementGuidId>b4fe6e78-1b61-44d3-8962-83a36685e324</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='sidebar']//li[3]//a[1]</value>
+         <value>//div[@class=&quot;plan__header-wrap&quot;]//div[2]//div[1]//div[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

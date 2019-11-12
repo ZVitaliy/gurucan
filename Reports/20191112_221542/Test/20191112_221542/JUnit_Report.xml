@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test" time="25.559" tests="2" failures="0" errors="0">
+   <testsuite name="Test" tests="2" failures="0" errors="0" time="25.559" timestamp="2019-11-12 22:15:45" hostname="macbookpro - 192.168.1.3" id="Test Suites/Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191112_221542/Test/20191112_221542"/>
+         <property name="logFiles" value="/Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191112_221542/Test/20191112_221542/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="macbookpro - 192.168.1.3"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.6.1"/>
+         <property name="browser" value="Chrome 78.0.3904.97"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="63ca30b541a8baf231f3492be8f4ed94"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Customer/customer_login" time="11.452" classname="Test Cases/Customer/customer_login" status="PASSED">
+         <system-out><![CDATA[2019-11-12 22:15:45 - [TEST_CASE][PASSED] - Test Cases/Customer/customer_login: Test Cases/Customer/customer_login
+
+2019-11-12 22:15:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-12 22:15:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-12 22:15:46 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-12 22:15:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-12 22:15:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-11-12 22:15:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-12 22:15:49 - [TEST_STEP][PASSED] - navigateToUrl("https://fibe.staging.gurucan.ru/"): Navigate to 'https://fibe.staging.gurucan.ru/' successfully
+
+2019-11-12 22:15:52 - [MESSAGE][PASSED] - Navigate to 'https://fibe.staging.gurucan.ru/' successfully
+
+2019-11-12 22:15:52 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Lending page/lending_login_btn")): Object: 'Object Repository/Customer/Lending page/lending_login_btn' is clicked on
+
+2019-11-12 22:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Lending page/lending_login_btn' is clicked on
+
+2019-11-12 22:15:55 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Lending page/login_page_email_field"), "ravaf80973@hide-mail.net"): Text 'ravaf80973@hide-mail.net' is set on object 'Object Repository/Customer/Lending page/login_page_email_field'
+
+2019-11-12 22:15:56 - [MESSAGE][PASSED] - Text 'ravaf80973@hide-mail.net' is set on object 'Object Repository/Customer/Lending page/login_page_email_field'
+
+2019-11-12 22:15:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Customer/Lending page/login_page_password_field"), "nbPRAawFRnE="): Text ****** has been set on object 'Object Repository/Customer/Lending page/login_page_password_field'
+
+2019-11-12 22:15:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Customer/Lending page/login_page_password_field'
+
+2019-11-12 22:15:56 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Lending page/login_page_login_btn")): Object: 'Object Repository/Customer/Lending page/login_page_login_btn' is clicked on
+
+2019-11-12 22:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Lending page/login_page_login_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/select_paid_plan" time="13.598" classname="Test Cases/Customer/select_paid_plan" status="PASSED">
+         <system-out><![CDATA[2019-11-12 22:15:57 - [TEST_CASE][PASSED] - Test Cases/Customer/select_paid_plan: Test Cases/Customer/select_paid_plan
+
+2019-11-12 22:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Left menu/main_page_left_menu_settings")): Object: 'Object Repository/Customer/Main page/Left menu/main_page_left_menu_settings' is clicked on
+
+2019-11-12 22:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Left menu/main_page_left_menu_settings' is clicked on
+
+2019-11-12 22:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Settings/settings_page_tarif")): Object: 'Object Repository/Customer/Main page/Settings/settings_page_tarif' is clicked on
+
+2019-11-12 22:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Settings/settings_page_tarif' is clicked on
+
+2019-11-12 22:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Settings/select_paid_plan_name_tarif")): Object: 'Object Repository/Customer/Main page/Settings/select_paid_plan_name_tarif' is clicked on
+
+2019-11-12 22:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Settings/select_paid_plan_name_tarif' is clicked on
+
+2019-11-12 22:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Settings/settings_subscribe_btn")): Object: 'Object Repository/Customer/Main page/Settings/settings_subscribe_btn' is clicked on
+
+2019-11-12 22:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Settings/settings_subscribe_btn' is clicked on
+
+2019-11-12 22:15:59 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Main page/Settings/Tinkoff/tinkoff_cc_number_field"), "4300000000000777"): Text '4300000000000777' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_cc_number_field'
+
+2019-11-12 22:16:04 - [MESSAGE][PASSED] - Text '4300000000000777' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_cc_number_field'
+
+2019-11-12 22:16:04 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Main page/Settings/Tinkoff/tinkoff_exp_date_field"), "1221"): Text '1221' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_exp_date_field'
+
+2019-11-12 22:16:05 - [MESSAGE][PASSED] - Text '1221' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_exp_date_field'
+
+2019-11-12 22:16:05 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Main page/Settings/Tinkoff/tinkoff_cvc_field"), "111"): Text '111' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_cvc_field'
+
+2019-11-12 22:16:05 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_cvc_field'
+
+2019-11-12 22:16:05 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Settings/Tinkoff/tinkoff_pay_btn")): Object: 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_pay_btn' is clicked on
+
+2019-11-12 22:16:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_pay_btn' is clicked on
+
+2019-11-12 22:16:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Customer/Main page/Settings/successful_payment_appstore_btn")): Object 'Object Repository/Customer/Main page/Settings/successful_payment_appstore_btn' is visible
+
+2019-11-12 22:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/Customer/Main page/Settings/successful_payment_appstore_btn' is visible
+
+2019-11-12 22:16:10 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Customer/Main page/Settings/successful_payment_android_btn")): Object 'Object Repository/Customer/Main page/Settings/successful_payment_android_btn' is visible
+
+2019-11-12 22:16:10 - [MESSAGE][PASSED] - Object 'Object Repository/Customer/Main page/Settings/successful_payment_android_btn' is visible
+
+2019-11-12 22:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Settings/successful_payment_open_scool_btn")): Object: 'Object Repository/Customer/Main page/Settings/successful_payment_open_scool_btn' is clicked on
+
+2019-11-12 22:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Settings/successful_payment_open_scool_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-12 22:15:45 - [TEST_SUITE][PASSED] - Test: Test Cases/Customer/select_paid_plan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

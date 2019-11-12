@@ -64,4 +64,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Client/create_menu</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5094dbd9-da42-45ac-b7f5-ddb96b7c3543</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Client/create_subscription_plan</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -11,21 +11,15 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>d955b47e-2ab9-46e7-9b2d-011e63db6a0e</testSuiteGuid>
    <testCaseLink>
-      <guid>4847af0b-9f0d-418c-b229-9c1776b2c033</guid>
+      <guid>cb70a974-a6b3-455c-8c29-2cec641d96aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Client/login_client</testCaseId>
+      <testCaseId>Test Cases/Customer/customer_login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>689c54bc-0932-436b-84ab-c982308b5c78</guid>
+      <guid>6aa821a7-b4fd-4965-a6f3-95784e281fec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Client/create_recipe</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>666c76c6-fdd3-48df-9629-d393d2e34411</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Client/create_menu</testCaseId>
+      <testCaseId>Test Cases/Customer/select_paid_plan</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
