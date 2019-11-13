@@ -44,12 +44,12 @@
       <guid>7376d553-d5c7-44fe-9d7b-5b7c9f37beef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Client/create_marathon</testCaseId>
+      <testCaseId>Test Cases/Client/Manage content/create_marathon</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9af6d959-49c1-4ade-bd1e-f31edddbf22a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Client/create_article</testCaseId>
+      <testCaseId>Test Cases/Client/Manage content/create_article</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>course_create_new_task_btn</name>
+   <name>course_add_lesson_btn</name>
    <tag></tag>
-   <elementGuidId>63dc65fa-1e9b-4aee-ab4f-82d99de05137</elementGuidId>
+   <elementGuidId>eee8ff63-5037-4faa-bb2a-b438526eb016</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;options__wrap course__create&quot;]</value>
+         <value>//div[@class=&quot;course__create-wrap&quot;]//li[1]//button[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

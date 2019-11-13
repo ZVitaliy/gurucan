@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>course_publuck_btn</name>
+   <name>course_publish_btn</name>
    <tag></tag>
    <elementGuidId>37cb6f1e-e9f6-4e10-b4b3-40f0bdfdaa41</elementGuidId>
    <selectorCollection>
@@ -10,10 +10,10 @@
          <value>//ul[@class=&quot;course__controls&quot;]//li[4]</value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

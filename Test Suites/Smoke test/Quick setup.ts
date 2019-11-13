@@ -44,13 +44,13 @@
       <guid>ca6c0f22-1255-42a9-8ecc-d8a18a18a302</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Client/create_marathon</testCaseId>
+      <testCaseId>Test Cases/Client/Manage content/create_marathon</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>94119370-ab48-44f2-a330-40fbf0632ac3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Client/create_article</testCaseId>
+      <testCaseId>Test Cases/Client/Manage content/create_article</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f308d67f-e3bd-4e2f-b041-bf8acb80859f</guid>

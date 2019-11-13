@@ -11,15 +11,21 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>d955b47e-2ab9-46e7-9b2d-011e63db6a0e</testSuiteGuid>
    <testCaseLink>
-      <guid>cb70a974-a6b3-455c-8c29-2cec641d96aa</guid>
+      <guid>ddb04ee3-f562-46c6-bc70-82940edf1aee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Customer/customer_login</testCaseId>
+      <testCaseId>Test Cases/Client/login_client</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>6aa821a7-b4fd-4965-a6f3-95784e281fec</guid>
+      <guid>0be783f3-1f98-4639-8f5c-be6ea04dd6c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Customer/select_paid_plan</testCaseId>
+      <testCaseId>Test Cases/Client/First Quick Setup/course_fast_create</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7aa81693-cc69-4228-8565-97e07ccd4e61</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Client/Manage content/Course/course_create_exercise</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
