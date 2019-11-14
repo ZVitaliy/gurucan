@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lesson_publish_btn</name>
+   <name>lesson_breadcrumbs_back_to_course</name>
    <tag></tag>
-   <elementGuidId>e0d3ccb5-cfdb-42cd-a97b-ccdfb830a3ca</elementGuidId>
+   <elementGuidId>bc73c569-0116-468f-9c28-282100f7745c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;lesson__wrap&quot;]//ul[1]//li[3]//button</value>
+         <value>//div[@class=&quot;breadcrumbs&quot;]//a[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

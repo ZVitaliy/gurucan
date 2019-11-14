@@ -23,7 +23,16 @@ WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Co
 
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_add_block'))
 
-WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_add_block_text_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_add_block_youtube_btn'))
 
-WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_block_text_area'), 'Here is text')
+WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_block_youtube_link_field'), 
+    'https://www.youtube.com/watch?v=z5vA9CwZKNY')
+
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_block_youtube_save_btn'))
+
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_publish_btn'))
+
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_breadcrumbs_back_to_course'))
+
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_publish_btn'))
 

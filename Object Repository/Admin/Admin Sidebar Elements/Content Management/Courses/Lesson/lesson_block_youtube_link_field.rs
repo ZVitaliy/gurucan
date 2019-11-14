@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>lesson_publish_btn</name>
+   <name>lesson_block_youtube_link_field</name>
    <tag></tag>
-   <elementGuidId>e0d3ccb5-cfdb-42cd-a97b-ccdfb830a3ca</elementGuidId>
+   <elementGuidId>b4f09287-ba42-490f-930f-d6a55787c598</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;lesson__wrap&quot;]//ul[1]//li[3]//button</value>
+         <value>//div[@class=&quot;block__wrap undefined show&quot;]//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

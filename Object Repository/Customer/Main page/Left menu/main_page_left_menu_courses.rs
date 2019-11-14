@@ -14,9 +14,9 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class='sc-fBuWsC fGdsPk']//aside//ul[1]//li[1]//a[@class=&quot;sc-fAjcbJ cLBrgc&quot;]</value>
+         <value>//aside[@class=&quot;sc-fMiknA hoqVmB&quot;]//ul[1]//li[1]//a[contains(@href,&quot;/courses&quot;)]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>
