@@ -34,5 +34,7 @@ WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Cour
 
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_breadcrumbs_back_to_course'))
 
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_free_paid_switcher'))
+
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_publish_btn'))
 

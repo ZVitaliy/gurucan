@@ -17,6 +17,12 @@
       <testCaseId>Test Cases/Customer/customer_login</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>63cf5c84-5dc8-4108-817b-84ab0f5bfbd7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Customer/navigate_to_settings_tarif</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>19306213-fb1b-4fc4-abe3-f924f4fb9dd2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

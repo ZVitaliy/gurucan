@@ -15,21 +15,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Customer/Main page/Settings/select_paid_plan_name_tarif'))
+WebUI.click(findTestObject('Customer/Main page/Left menu/main_page_left_menu_settings'))
 
-WebUI.click(findTestObject('Customer/Main page/Settings/settings_subscribe_btn'))
-
-WebUI.setText(findTestObject('Customer/Main page/Settings/Tinkoff/tinkoff_cc_number_field'), '4300000000000777')
-
-WebUI.setText(findTestObject('Customer/Main page/Settings/Tinkoff/tinkoff_exp_date_field'), '1221')
-
-WebUI.setText(findTestObject('Customer/Main page/Settings/Tinkoff/tinkoff_cvc_field'), '111')
-
-WebUI.click(findTestObject('Customer/Main page/Settings/Tinkoff/tinkoff_pay_btn'))
-
-WebUI.verifyElementVisible(findTestObject('Customer/Main page/Settings/successful_payment_appstore_btn'))
-
-WebUI.verifyElementVisible(findTestObject('Customer/Main page/Settings/successful_payment_android_btn'))
-
-WebUI.click(findTestObject('Customer/Main page/Settings/successful_payment_open_scool_btn'))
+WebUI.click(findTestObject('Customer/Main page/Settings/settings_page_tarif'))
 

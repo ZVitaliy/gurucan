@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://fibe.staging.gurucan.ru/')
 
 WebUI.click(findTestObject('Customer/Lending page/lending_login_btn'))
 
-WebUI.setText(findTestObject('Customer/Lending page/login_page_email_field'), 'repekel777@hideemail.net')
+WebUI.setText(findTestObject('Customer/Lending page/login_page_email_field'), 'kocira4317@3mailapp.net')
 
 WebUI.setEncryptedText(findTestObject('Customer/Lending page/login_page_password_field'), 'nbPRAawFRnE=')
 

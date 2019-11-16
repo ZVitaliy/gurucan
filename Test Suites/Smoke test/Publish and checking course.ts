@@ -46,4 +46,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Customer/checking_published_course</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>02025f7f-1724-4dd0-b719-85f2db625038</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Customer/checking_is_course_paid</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>535493c5-d0e3-4389-8824-ff1bfb27010c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Customer/select_paid_plan</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
