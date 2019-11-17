@@ -15,17 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Customer/Main page/Left menu/main_page_left_menu_courses'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Customer/Main page/Courses page/course_search_name_test_course'))
 
-WebUI.navigateToUrl('https://fibe.staging.gurucan.ru/')
+WebUI.click(findTestObject('Customer/Main page/Courses page/Inside course/course_start_free_or_subscribe_btn'))
 
-WebUI.click(findTestObject('Customer/Lending page/lending_login_btn'))
-
-WebUI.setText(findTestObject('Customer/Lending page/login_page_email_field'), 'fepasid725@hide-mail.net')
-
-WebUI.setEncryptedText(findTestObject('Customer/Lending page/login_page_password_field'), 'nbPRAawFRnE=')
-
-WebUI.click(findTestObject('Customer/Lending page/login_page_login_btn'))
+WebUI.click(findTestObject('Customer/Main page/Courses page/Inside course/end_course_btn'))
 

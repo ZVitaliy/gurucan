@@ -58,4 +58,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Customer/select_paid_plan</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4e094674-fb4f-40d3-af4e-6e023d94cae5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Customer/start_new_course</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Publish and checking course" time="56.728" tests="8" failures="0" errors="0">
+   <testsuite name="Publish and checking course" tests="8" failures="0" errors="0" time="56.728" timestamp="2019-11-17 15:41:40" hostname="macbookpro - 192.168.1.5" id="Test Suites/Smoke test/Publish and checking course">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191117_154138/Smoke test/Publish and checking course/20191117_154138"/>
+         <property name="logFiles" value="/Users/macbookpro/Documents/gurucan/katalon/gurucanweb/Reports/20191117_154138/Smoke test/Publish and checking course/20191117_154138/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="macbookpro - 192.168.1.5"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.6.1"/>
+         <property name="browser" value="Chrome 78.0.3904.97"/>
+         <property name="hostAddress" value="192.168.1.5"/>
+         <property name="sessionId" value="bbd7c4751089bff4377e7964d610dfc9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Client/login_client" time="14.223" classname="Test Cases/Client/login_client" status="PASSED">
+         <system-out><![CDATA[2019-11-17 15:41:41 - [TEST_CASE][PASSED] - Test Cases/Client/login_client: Test Cases/Client/login_client
+
+2019-11-17 15:41:41 - [TEST_STEP][PASSED] - openBrowser("https://app.staging.gurucan.ru/admin/login"): Browser is opened with url: 'https://app.staging.gurucan.ru/admin/login'
+
+2019-11-17 15:41:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-17 15:41:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-17 15:41:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://app.staging.gurucan.ru/admin/login'
+
+2019-11-17 15:41:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-11-17 15:41:50 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-17 15:41:50 - [TEST_STEP][PASSED] - navigateToUrl("https://app.staging.gurucan.ru/admin/login"): Navigate to 'https://app.staging.gurucan.ru/admin/login' successfully
+
+2019-11-17 15:41:52 - [MESSAGE][PASSED] - Navigate to 'https://app.staging.gurucan.ru/admin/login' successfully
+
+2019-11-17 15:41:52 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login Page/login_email_field"), "fibe@simplemail.top"): Text 'fibe@simplemail.top' is set on object 'Object Repository/Admin/Admin Login Page/login_email_field'
+
+2019-11-17 15:41:53 - [MESSAGE][PASSED] - Text 'fibe@simplemail.top' is set on object 'Object Repository/Admin/Admin Login Page/login_email_field'
+
+2019-11-17 15:41:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Admin/Admin Login Page/login_pass_field"), "8chwvGYzQjDjBqJR/GXC+g=="): Text ****** has been set on object 'Object Repository/Admin/Admin Login Page/login_pass_field'
+
+2019-11-17 15:41:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Admin Login Page/login_pass_field'
+
+2019-11-17 15:41:54 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Login Page/login_domain_field"), "fibe"): Text 'fibe' is set on object 'Object Repository/Admin/Admin Login Page/login_domain_field'
+
+2019-11-17 15:41:54 - [MESSAGE][PASSED] - Text 'fibe' is set on object 'Object Repository/Admin/Admin Login Page/login_domain_field'
+
+2019-11-17 15:41:54 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Login Page/login_button")): Object: 'Object Repository/Admin/Admin Login Page/login_button' is clicked on
+
+2019-11-17 15:41:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Login Page/login_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client/First Quick Setup/course_fast_create" time="9.354" classname="Test Cases/Client/First Quick Setup/course_fast_create" status="PASSED">
+         <system-out><![CDATA[2019-11-17 15:41:55 - [TEST_CASE][PASSED] - Test Cases/Client/First Quick Setup/course_fast_create: Test Cases/Client/First Quick Setup/course_fast_create
+
+2019-11-17 15:41:55 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/wlcm_menu_link")): Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-17 15:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/wlcm_menu_link' is clicked on
+
+2019-11-17 15:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Welcome Page/wlcm_first_course")): Object: 'Object Repository/Admin/Welcome Page/wlcm_first_course' is clicked on
+
+2019-11-17 15:42:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Welcome Page/wlcm_first_course' is clicked on
+
+2019-11-17 15:42:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/create_course_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/create_course_btn' is clicked on
+
+2019-11-17 15:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/create_course_btn' is clicked on
+
+2019-11-17 15:42:03 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/course_name_field"), "Test course"): Text 'Test course' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_name_field'
+
+2019-11-17 15:42:04 - [MESSAGE][PASSED] - Text 'Test course' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_name_field'
+
+2019-11-17 15:42:04 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/course_save_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_save_btn' is clicked on
+
+2019-11-17 15:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_save_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Client/Manage content/Course/course_create_exercise" time="9.595" classname="Test Cases/Client/Manage content/Course/course_create_exercise" status="PASSED">
+         <system-out><![CDATA[2019-11-17 15:42:04 - [TEST_CASE][PASSED] - Test Cases/Client/Manage content/Course/course_create_exercise: Test Cases/Client/Manage content/Course/course_create_exercise
+
+2019-11-17 15:42:04 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/course_create_new_task_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_create_new_task_btn' is hovered
+
+2019-11-17 15:42:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_create_new_task_btn' is hovered
+
+2019-11-17 15:42:05 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/course_add_lesson_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/course_add_lesson_btn' is clicked on
+
+2019-11-17 15:42:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/course_add_lesson_btn' is clicked on
+
+2019-11-17 15:42:06 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_name_field"), "Exercise"): Text 'Exercise' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_name_field'
+
+2019-11-17 15:42:06 - [MESSAGE][PASSED] - Text 'Exercise' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_name_field'
+
+2019-11-17 15:42:06 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_add_block")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_add_block' is clicked on
+
+2019-11-17 15:42:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_add_block' is clicked on
+
+2019-11-17 15:42:07 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_add_block_youtube_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_add_block_youtube_btn' is clicked on
+
+2019-11-17 15:42:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_add_block_youtube_btn' is clicked on
+
+2019-11-17 15:42:08 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_block_youtube_link_field"), "https://www.youtube.com/watch?v=z5vA9CwZKNY"): Text 'https://www.youtube.com/watch?v=z5vA9CwZKNY' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_block_youtube_link_field'
+
+2019-11-17 15:42:09 - [MESSAGE][PASSED] - Text 'https://www.youtube.com/watch?v=z5vA9CwZKNY' is set on object 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_block_youtube_link_field'
+
+2019-11-17 15:42:09 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_block_youtube_save_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_block_youtube_save_btn' is clicked on
+
+2019-11-17 15:42:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_block_youtube_save_btn' is clicked on
+
+2019-11-17 15:42:10 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_publish_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_publish_btn' is clicked on
+
+2019-11-17 15:42:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_publish_btn' is clicked on
+
+2019-11-17 15:42:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_breadcrumbs_back_to_course")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_breadcrumbs_back_to_course' is clicked on
+
+2019-11-17 15:42:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/Lesson/lesson_breadcrumbs_back_to_course' is clicked on
+
+2019-11-17 15:42:12 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/course_free_paid_switcher")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_free_paid_switcher' is clicked on
+
+2019-11-17 15:42:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_free_paid_switcher' is clicked on
+
+2019-11-17 15:42:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Admin Sidebar Elements/Content Management/Courses/course_publish_btn")): Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_publish_btn' is clicked on
+
+2019-11-17 15:42:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Admin Sidebar Elements/Content Management/Courses/course_publish_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/close_browser" time="0.289" classname="Test Cases/close_browser" status="PASSED">
+         <system-out><![CDATA[2019-11-17 15:42:14 - [TEST_CASE][PASSED] - Test Cases/close_browser: Test Cases/close_browser
+
+2019-11-17 15:42:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-11-17 15:42:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/customer_login" time="7.891" classname="Test Cases/Customer/customer_login" status="PASSED">
+         <system-out><![CDATA[2019-11-17 15:42:14 - [TEST_CASE][PASSED] - Test Cases/Customer/customer_login: Test Cases/Customer/customer_login
+
+2019-11-17 15:42:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-17 15:42:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-17 15:42:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-17 15:42:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-11-17 15:42:16 - [MESSAGE][PASSED] - Current window maximized
+
+2019-11-17 15:42:16 - [TEST_STEP][PASSED] - navigateToUrl("https://fibe.staging.gurucan.ru/"): Navigate to 'https://fibe.staging.gurucan.ru/' successfully
+
+2019-11-17 15:42:18 - [MESSAGE][PASSED] - Navigate to 'https://fibe.staging.gurucan.ru/' successfully
+
+2019-11-17 15:42:18 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Lending page/lending_login_btn")): Object: 'Object Repository/Customer/Lending page/lending_login_btn' is clicked on
+
+2019-11-17 15:42:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Lending page/lending_login_btn' is clicked on
+
+2019-11-17 15:42:20 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Lending page/login_page_email_field"), "vifidab634@ymail365.com"): Text 'vifidab634@ymail365.com' is set on object 'Object Repository/Customer/Lending page/login_page_email_field'
+
+2019-11-17 15:42:21 - [MESSAGE][PASSED] - Text 'vifidab634@ymail365.com' is set on object 'Object Repository/Customer/Lending page/login_page_email_field'
+
+2019-11-17 15:42:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Customer/Lending page/login_page_password_field"), "nbPRAawFRnE="): Text ****** has been set on object 'Object Repository/Customer/Lending page/login_page_password_field'
+
+2019-11-17 15:42:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Customer/Lending page/login_page_password_field'
+
+2019-11-17 15:42:21 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Lending page/login_page_login_btn")): Object: 'Object Repository/Customer/Lending page/login_page_login_btn' is clicked on
+
+2019-11-17 15:42:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Lending page/login_page_login_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/checking_published_course" time="1.711" classname="Test Cases/Customer/checking_published_course" status="PASSED">
+         <system-out><![CDATA[2019-11-17 15:42:22 - [TEST_CASE][PASSED] - Test Cases/Customer/checking_published_course: Test Cases/Customer/checking_published_course
+
+2019-11-17 15:42:22 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Left menu/main_page_left_menu_courses")): Object: 'Object Repository/Customer/Main page/Left menu/main_page_left_menu_courses' is clicked on
+
+2019-11-17 15:42:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Left menu/main_page_left_menu_courses' is clicked on
+
+2019-11-17 15:42:23 - [TEST_STEP][PASSED] - verifyTextPresent("Test course", false): Text 'Test course' is present on page 
+
+2019-11-17 15:42:24 - [MESSAGE][PASSED] - Text 'Test course' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/checking_is_course_paid" time="1.74" classname="Test Cases/Customer/checking_is_course_paid" status="PASSED">
+         <system-out><![CDATA[2019-11-17 15:42:24 - [TEST_CASE][PASSED] - Test Cases/Customer/checking_is_course_paid: Test Cases/Customer/checking_is_course_paid
+
+2019-11-17 15:42:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Customer/Main page/Courses page/course_paid_marker"), 0): Object 'Object Repository/Customer/Main page/Courses page/course_paid_marker' is present
+
+2019-11-17 15:42:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-11-17 15:42:24 - [MESSAGE][PASSED] - Object 'Object Repository/Customer/Main page/Courses page/course_paid_marker' is present
+
+2019-11-17 15:42:24 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Courses page/course_paid_marker")): Object: 'Object Repository/Customer/Main page/Courses page/course_paid_marker' is clicked on
+
+2019-11-17 15:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Courses page/course_paid_marker' is clicked on
+
+2019-11-17 15:42:25 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Courses page/course_start_free_or_subscribe_btn")): Object: 'Object Repository/Customer/Main page/Courses page/course_start_free_or_subscribe_btn' is clicked on
+
+2019-11-17 15:42:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Courses page/course_start_free_or_subscribe_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Customer/select_paid_plan" time="11.448" classname="Test Cases/Customer/select_paid_plan" status="PASSED">
+         <system-out><![CDATA[2019-11-17 15:42:25 - [TEST_CASE][PASSED] - Test Cases/Customer/select_paid_plan: Test Cases/Customer/select_paid_plan
+
+2019-11-17 15:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Settings/select_paid_plan_name_tarif")): Object: 'Object Repository/Customer/Main page/Settings/select_paid_plan_name_tarif' is clicked on
+
+2019-11-17 15:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Settings/select_paid_plan_name_tarif' is clicked on
+
+2019-11-17 15:42:26 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Settings/settings_subscribe_btn")): Object: 'Object Repository/Customer/Main page/Settings/settings_subscribe_btn' is clicked on
+
+2019-11-17 15:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Settings/settings_subscribe_btn' is clicked on
+
+2019-11-17 15:42:27 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Main page/Settings/Tinkoff/tinkoff_cc_number_field"), "4300000000000777"): Text '4300000000000777' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_cc_number_field'
+
+2019-11-17 15:42:31 - [MESSAGE][PASSED] - Text '4300000000000777' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_cc_number_field'
+
+2019-11-17 15:42:31 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Main page/Settings/Tinkoff/tinkoff_exp_date_field"), "1221"): Text '1221' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_exp_date_field'
+
+2019-11-17 15:42:31 - [MESSAGE][PASSED] - Text '1221' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_exp_date_field'
+
+2019-11-17 15:42:31 - [TEST_STEP][PASSED] - setText(findTestObject("Customer/Main page/Settings/Tinkoff/tinkoff_cvc_field"), "111"): Text '111' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_cvc_field'
+
+2019-11-17 15:42:32 - [MESSAGE][PASSED] - Text '111' is set on object 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_cvc_field'
+
+2019-11-17 15:42:32 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Settings/Tinkoff/tinkoff_pay_btn")): Object: 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_pay_btn' is clicked on
+
+2019-11-17 15:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Settings/Tinkoff/tinkoff_pay_btn' is clicked on
+
+2019-11-17 15:42:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Customer/Main page/Settings/successful_payment_appstore_btn")): Object 'Object Repository/Customer/Main page/Settings/successful_payment_appstore_btn' is visible
+
+2019-11-17 15:42:36 - [MESSAGE][PASSED] - Object 'Object Repository/Customer/Main page/Settings/successful_payment_appstore_btn' is visible
+
+2019-11-17 15:42:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Customer/Main page/Settings/successful_payment_android_btn")): Object 'Object Repository/Customer/Main page/Settings/successful_payment_android_btn' is visible
+
+2019-11-17 15:42:37 - [MESSAGE][PASSED] - Object 'Object Repository/Customer/Main page/Settings/successful_payment_android_btn' is visible
+
+2019-11-17 15:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Customer/Main page/Settings/successful_payment_open_scool_btn")): Object: 'Object Repository/Customer/Main page/Settings/successful_payment_open_scool_btn' is clicked on
+
+2019-11-17 15:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Customer/Main page/Settings/successful_payment_open_scool_btn' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-17 15:41:40 - [TEST_SUITE][PASSED] - Publish and checking course: Test Cases/Customer/select_paid_plan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

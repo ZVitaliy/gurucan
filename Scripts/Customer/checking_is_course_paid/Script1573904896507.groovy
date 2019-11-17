@@ -19,5 +19,5 @@ WebUI.verifyElementPresent(findTestObject('Customer/Main page/Courses page/cours
 
 WebUI.click(findTestObject('Customer/Main page/Courses page/course_paid_marker'))
 
-WebUI.click(findTestObject('Customer/Main page/Courses page/course_start_free_or_subscribe_btn'))
+WebUI.click(findTestObject('Customer/Main page/Courses page/Inside course/course_start_free_or_subscribe_btn'))
 
