@@ -64,4 +64,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Customer/start_new_course</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>963e82ff-249f-4177-833b-539c760e693e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/close_browser</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bb1cde65-314f-4dcf-b780-e97eabbd2f28</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Client/login_client</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cf035e2d-89bc-4d9e-9fe4-8eaac9ca2a5e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Client/delete_test_course</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

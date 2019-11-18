@@ -15,17 +15,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/expand_collaps_menu'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/submenu_courses'))
 
-WebUI.navigateToUrl('https://fibe.staging.gurucan.ru/')
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_search_course_by_name_test_course'))
 
-WebUI.click(findTestObject('Customer/Lending page/lending_login_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_delete_btn'))
 
-WebUI.setText(findTestObject('Customer/Lending page/login_page_email_field'), 'ligice7910@itymail.com')
-
-WebUI.setEncryptedText(findTestObject('Customer/Lending page/login_page_password_field'), 'nbPRAawFRnE=')
-
-WebUI.click(findTestObject('Customer/Lending page/login_page_login_btn'))
+WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_modal_confirm_delete_btn'))
 
