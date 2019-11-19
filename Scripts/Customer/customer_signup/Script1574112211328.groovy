@@ -15,9 +15,30 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-'Меню Курсы'
-WebUI.click(findTestObject('Customer/Main page/Left menu/main_page_left_menu_courses'))
+'Открыть браузер'
+WebUI.openBrowser('')
 
-'Проверка названия курса'
-WebUI.verifyTextPresent('Test course', false)
+'Перейти по ссылке'
+WebUI.navigateToUrl('https://fibe.staging.gurucan.ru')
+
+'Развернуть окно'
+WebUI.maximizeWindow()
+
+'Логин кнопка'
+WebUI.click(findTestObject('Customer/Lending page/lending_login_btn'))
+
+'Перейти на вкладку регистрации'
+WebUI.click(findTestObject('Customer/Main page/Login page/signup_page_signup_tab'))
+
+'Имя пользователя'
+WebUI.setText(findTestObject('Customer/Main page/Login page/signup_tab_name_field'), 'User')
+
+'Имейл'
+WebUI.setText(findTestObject('Customer/Main page/Login page/signup_tab_email_field'), 'autouser@mail.com')
+
+'Пароль'
+WebUI.setEncryptedText(findTestObject('Customer/Main page/Login page/signup_tab_password_field'), 'nbPRAawFRnE=')
+
+'Зарегистрироваться'
+WebUI.click(findTestObject('Customer/Main page/Login page/signup_tab_signup_btn'))
 

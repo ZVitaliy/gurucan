@@ -15,13 +15,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'Развернуть меню "Питание"'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Meal plan/expand_collaps_menu'))
 
+'Нажать субменю "Рецепты"'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Meal plan/Recipes/submenu_recipes'))
 
+'Добавить рецепт'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Meal plan/Recipes/add_recipe_btn'))
 
+'Название рецепта'
 WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Meal plan/Recipes/recipe_name_field'), 'Soup')
 
+'Сохранить рецепт'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Meal plan/Recipes/recipe_save_btn'))
 

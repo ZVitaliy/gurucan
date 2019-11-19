@@ -13,9 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Кнопка Добро пожаловать'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/wlcm_menu_link'))
 
+'Настройка лендинга'
 WebUI.click(findTestObject('Admin/Welcome Page/wlcm_setup_lending'))
 
+'Сохранить'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Settings Scool/Lending Settings/save_btn'))
 

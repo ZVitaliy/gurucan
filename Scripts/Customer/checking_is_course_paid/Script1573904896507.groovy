@@ -15,9 +15,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'Проверка маркера платного курса'
 WebUI.verifyElementPresent(findTestObject('Customer/Main page/Courses page/course_paid_marker'), 0)
 
+'Открыть курс'
 WebUI.click(findTestObject('Customer/Main page/Courses page/course_paid_marker'))
 
+'Начать курс'
 WebUI.click(findTestObject('Customer/Main page/Courses page/Inside course/course_start_free_or_subscribe_btn'))
 

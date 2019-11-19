@@ -15,11 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'Перейти в меню Курсы'
 WebUI.click(findTestObject('Customer/Main page/Left menu/main_page_left_menu_courses'))
 
+'Выбрать курс с названием Test course'
 WebUI.click(findTestObject('Customer/Main page/Courses page/course_search_name_test_course'))
 
+'Начать курс или оплатить'
 WebUI.click(findTestObject('Customer/Main page/Courses page/Inside course/course_start_free_or_subscribe_btn'))
 
+'Завершить курс'
 WebUI.click(findTestObject('Customer/Main page/Courses page/Inside course/end_course_btn'))
 

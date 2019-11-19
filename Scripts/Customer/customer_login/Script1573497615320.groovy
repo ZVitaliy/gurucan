@@ -15,17 +15,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'Открыть браузер'
 WebUI.openBrowser('')
 
+'Развернуть окно'
 WebUI.maximizeWindow()
 
+'Перейти по ссылке'
 WebUI.navigateToUrl('https://fibe.staging.gurucan.ru/')
 
+'Логин'
 WebUI.click(findTestObject('Customer/Lending page/lending_login_btn'))
 
-WebUI.setText(findTestObject('Customer/Lending page/login_page_email_field'), 'ligice7910@itymail.com')
+'Имейл'
+WebUI.setText(findTestObject('Customer/Lending page/login_page_email_field'), 'tahas40604@mailhub24.com')
 
+'Пароль'
 WebUI.setEncryptedText(findTestObject('Customer/Lending page/login_page_password_field'), 'nbPRAawFRnE=')
 
+'Войти'
 WebUI.click(findTestObject('Customer/Lending page/login_page_login_btn'))
 

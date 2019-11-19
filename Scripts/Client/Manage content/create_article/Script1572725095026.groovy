@@ -15,21 +15,30 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+'Кнопка Добро пожаловать'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/wlcm_menu_link'))
 
+'Меню Статьи'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/submenu_articles'))
 
+'Добавить статью'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_add_btn'))
 
+'Название статьи'
 WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_name_field'), 'New article')
 
+'Добавить блок'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_add_block_btn'))
 
+'Добавить Ютуб блок'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_block_add_youtube_btn'))
 
+'Вставить ссылку на видео'
 WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_block_youtube_link'), 'https://www.youtube.com/watch?v=xf6lhjW21gU')
 
+'Сохранить блок'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_block_youtube_save_btn'))
 
+'Сохранить статью'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Articles/article_save_btn'))
 

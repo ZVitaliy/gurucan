@@ -15,12 +15,12 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-'Click on the welcome link'
+'Кнопка "Добро пожаловать"'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/wlcm_menu_link'))
 
-'Click on the get app link'
+'Кнопка "Загрузить андроид приложение"'
 WebUI.click(findTestObject('Admin/Welcome Page/get_ios_app'))
 
-'Close browser tab'
+'Закрыть вкладку'
 WebUI.closeWindowIndex('1')
 

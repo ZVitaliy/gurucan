@@ -16,13 +16,18 @@ import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+'Кнопка "Добро пожаловать"'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/wlcm_menu_link'))
 
+'Создать свой первый курс'
 WebUI.click(findTestObject('Admin/Welcome Page/wlcm_first_course'))
 
+'Создать курс'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/create_course_btn'))
 
-WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_name_field'), 'Test course')
+'Название курса'
+WebUI.setText(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_name_field'), 'Free course')
 
+'Сохранить курс'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Content Management/Courses/course_save_btn'))
 

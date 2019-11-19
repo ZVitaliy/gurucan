@@ -13,8 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Кнопка Добро пожаловать'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/wlcm_menu_link'))
 
+'Следование подсказкам'
 WebUI.switchToFrame(findTestObject('Admin/First Login hints/intercom_tour_frame'), 0)
 
 WebUI.click(findTestObject('Admin/First Login hints/hint_next_btn'))

@@ -15,7 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+'Меню настройки'
 WebUI.click(findTestObject('Customer/Main page/Left menu/main_page_left_menu_settings'))
 
+'Меню выбора тарифного плана'
 WebUI.click(findTestObject('Customer/Main page/Settings/settings_page_tarif'))
 

@@ -13,9 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Кнопка Добро пожаловать'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/wlcm_menu_link'))
 
+'Настройка школы'
 WebUI.click(findTestObject('Admin/Welcome Page/wlcm_setup_scool'))
 
+'Сохранить'
 WebUI.click(findTestObject('Admin/Admin Sidebar Elements/Settings Scool/Main Settings/save_btn'))
 
